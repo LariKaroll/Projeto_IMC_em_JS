@@ -1,0 +1,33 @@
+body{
+    background-color: sandybrown;
+    text-align: center;
+    border: 2px solid black;
+    margin: 5px 70px 2px 70px;
+}
+hr{
+    color: black;
+    background: black;
+}
+.container h1{
+    text-shadow: 2px 1px 10px;
+}
+.container form{
+    text-align: center; 
+}
+.container form label{
+    font-size: 18px;
+}
+.container form input{
+    text-align: right;
+    width: 60px;
+    padding: 2px;
+}
+.container form button{
+    border-radius: 20px;
+    width: 200px;
+    background-color: sandybrown;
+    font-size: 15px;
+}
+.container form button:hover{
+    color: snow;
+}

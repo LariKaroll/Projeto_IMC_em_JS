@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="LariKarol">
+    <link rel="shortcut icon" href="img/icon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <title>IMC- Indice de massa corporal</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>IMC - Índice de Massa Corporal</h1>
+            <hr>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form onsubmit="return false">
+                <label>Altura:</label> <br>
+                <input type="text" id="altura" placeholder="0,00"><label>m</label> <br><br>
+                <label>Peso: </label> <br>
+                <input type="text" placeholder="0,00" id="peso"><label>kg</label><br><br>
+                <button onclick="imc();">Calcular IMC</button>
+            </form>
+            <hr>
+            <h2 id="result"></h2>
+            <h2 id="imc"></h2>
+        </div>
+    </main>
+    <script src="js/scrypt.js"></script>
+</body>
+</html>
